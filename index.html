@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NutriEase | Gym Nutrition Webshop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #111;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #222;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 30px;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .product {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            max-height: 160px;
+            object-fit: cover;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>NutriEase</h1>
+    <p>This website is a school project</p>
+</header>
+
+<nav>
+    <a href="#products">Products</a>
+    <a href="#about">About Us</a>
+</nav>
+
+<div class="container">
+
+    <h2 id="products">Our Products</h2>
+
+    <div class="products">
+
+        <div class="product">
+            <img src="images/protein.jpg" alt="Whey Protein">
+            <h3>Whey Protein</h3>
+            <p>€29.99</p>
+            <a href="https://buy.stripe.com/REPLACE_WITH_YOUR_LINK" target="_blank">
+                <button>Buy Now</button>
+            </a>
+        </div>
+
+        <div class="product">
+            <img src="images/creatine.jpg" alt="Creatine">
+            <h3>Creatine</h3>
+            <p>€19.99</p>
+            <a href="https://buy.stripe.com/REPLACE_WITH_YOUR_LINK" target="_blank">
+                <button>Buy Now</button>
+            </a>
+        </div>
+
+        <div class="product">
+            <img src="images/preworkout.jpg" alt="Pre Workout">
+            <h3>Pre-Workout</h3>
+            <p>€24.99</p>
+            <a href="https://buy.stripe.com/REPLACE_WITH_YOUR_LINK" target="_blank">
+                <button>Buy Now</button>
+            </a>
+        </div>
+
+        <div class="product">
+            <img src="images/shaker.jpg" alt="Shaker Bottle">
+            <h3>Shaker Bottle</h3>
+            <p>€9.99</p>
+            <a href="https://buy.stripe.com/REPLACE_WITH_YOUR_LINK" target="_blank">
+                <button>Buy Now</button>
+            </a>
+        </div>
+
+    </div>
+
+    <h2 id="about">About Us</h2>
+    <p>
+        NutriEase is an online webshop focused on gym nutrition for young adults.
+        This webshop was created as a school project to demonstrate how an online business works.
+    </p>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 NutriEase – School Project</p>
+</footer>
+
+</body>
+</html>
